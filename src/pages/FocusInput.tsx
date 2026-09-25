@@ -9,7 +9,7 @@ function FocusInput(){
     return(
         <>
             <h1>useRef Practice</h1>
-            <input type="text" name="" id="" />
+            <input type="text" name="" id=""  useRef={inputRef}/>
             <button>Focus</button>
         
         </>
